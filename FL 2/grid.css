@@ -1,0 +1,126 @@
+#container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows:0.1fr 0.1fr 0.1fr 0.1fr 0.5fr 0.4fr 0.1fr 0.2fr 0.1fr 0.1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "head head head head"
+    "about about about about"
+    "servi servi servi servi"
+    "serv1 serv2 serv2 serv3"
+    "serv4 serv5 serv5 serv6"
+    "faq faq faq faq"
+    "logo logo logo logo"
+    "ran1 social1 social2 ran2"
+    "foot foot foot foot" ;
+    padding: 2%;
+}
+body{
+    background-color: #011914;
+    margin: 0%;
+    background-image: url(images/Web\ 1920\ –\ 1.png);
+    background-size: 100%;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.nav{
+    grid-area: nav;
+    color: white;
+}
+.header{
+    grid-area:head ;
+    text-align: center;
+    color: white;
+
+}
+#about{
+    grid-area:about ;
+    text-align: center;
+    padding: 2%;
+}
+#services{
+    grid-area:servi ;
+    text-align: center;
+    padding: 2%;
+
+
+}
+.serv1{
+    grid-area:serv1 ;
+    text-align: center;
+    padding: 2%;
+
+
+}
+.serv2{
+    grid-area:serv2 ;
+    text-align: center;
+    padding: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.serv3{
+    grid-area:serv3 ;
+    text-align: center;
+    padding: 2%;
+
+}
+.serv4{
+    grid-area:serv4 ;
+    text-align: center;
+    padding: 2%;
+
+}
+.serv5{
+    grid-area:serv5 ;
+    text-align: center;
+    padding: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.serv6{
+    grid-area:serv6 ;
+    text-align: center;
+    padding: 2%;
+
+}
+#faq{
+    grid-area:faq ;
+    text-align: center;
+    padding: 2%;
+
+}
+.logo{
+    grid-area:logo ;
+    text-align: center;
+    padding: 2%;
+
+}
+.social1{
+    grid-area:social1 ;
+    text-align: center;
+    padding: 2%;
+
+}
+.social2{
+    grid-area:social2 ;
+    text-align: center;
+    padding: 2%;
+
+}
+.ran1{
+    grid-area: ran1;
+}
+.ran2{
+    grid-area: ran2;
+}
+.footer{
+    grid-area:foot ;
+    text-align: center;
+    padding: 2%;
+
+}
